@@ -1,0 +1,33 @@
+{
+  "name": "request-arguments-parser",
+  "version": "0.1.0",
+  "description": "retrieve express request arguments whether they are in GET, POST or JSON body params",
+  "main": "RequestArgumentsParser.js",
+  "scripts": {
+    "test": "mocha test --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nherment/node-request-arguments.git"
+  },
+  "keywords": [
+    "express",
+    "params",
+    "request",
+    "arguments",
+    "parse"
+  ],
+  "author": "Nicolas Herment <nherment@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nherment/node-request-arguments/issues"
+  },
+  "homepage": "https://github.com/nherment/node-request-arguments",
+  "devDependencies": {
+    "mocha": "1.18.2"
+  },
+  "dependencies": {
+    "object-tree": "^0.2.0",
+    "underscore": "^1.6.0"
+  }
+}
